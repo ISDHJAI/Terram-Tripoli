@@ -293,37 +293,6 @@ section{padding:90px 0;}
   cursor:pointer;line-height:1;background:none;border:none;
 }
 
-/* ===== AMENIDADES ===== */
-#amenidades{background:var(--wine-dark);color:#fff;position:relative;overflow:hidden;}
-#amenidades .wrap{
-  display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;position:relative;z-index:2;
-}
-#amenidades .eyebrow{color:#F2B896;}
-#amenidades h2{color:#fff;}
-#amenidades p{color:#EAD3CE;}
-.amenidad-photo{
-  border-radius:var(--radius);overflow:hidden;box-shadow:0 25px 60px -20px rgba(0,0,0,.6);
-  position:relative;
-}
-.amenidad-photo img{width:100%;height:100%;object-fit:cover;}
-.amenidad-placeholder{
-  aspect-ratio:4/5;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
-  background:linear-gradient(135deg,var(--terra) 0%,var(--wine) 100%);
-  text-align:center;padding:30px;
-}
-.amenidad-placeholder svg{width:52px;height:52px;color:#fff;opacity:.9;}
-.amenidad-placeholder strong{font-size:1.2rem;color:#fff;letter-spacing:.04em;text-transform:uppercase;}
-.amenidad-placeholder span{font-size:.85rem;color:rgba(255,255,255,.85);max-width:260px;}
-.amenidad-list{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-.amenidad-list li{
-  display:flex;align-items:center;gap:12px;
-  background:rgba(255,255,255,.08);
-  border:1px solid rgba(255,255,255,.14);
-  padding:14px 16px;border-radius:12px;font-size:.9rem;font-weight:500;
-}
-.amenidad-list li svg{width:20px;height:20px;color:#F0AE85;flex-shrink:0;}
-
 /* ===== FINANCIAMIENTO ===== */
 #financiamiento{background:var(--bg);}
 .credito-grid{
@@ -455,8 +424,6 @@ footer small{font-size:.75rem;color:var(--gray-light);}
   .ficha-grid .ficha-row:nth-child(3n){border-right:1px solid var(--border);}
   .tab-panel{grid-template-columns:1fr;padding:24px;}
   .gallery-grid{grid-template-columns:repeat(2,1fr);}
-  #amenidades .wrap{grid-template-columns:1fr;}
-  .amenidad-list{grid-template-columns:1fr;}
 }
 @media (max-width:520px){
   .brand img{height:40px;}
